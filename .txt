@@ -1,0 +1,2 @@
+para criar um novo projeto strapie na pasta atual usamos o comando abaixo
+comando: npx create-strapi-app@latest .

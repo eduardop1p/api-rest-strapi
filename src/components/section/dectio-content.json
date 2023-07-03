@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_section_dectio_contents",
+  "info": {
+    "displayName": "section_content",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.section-metadata",
+      "required": true
+    }
+  }
+}
