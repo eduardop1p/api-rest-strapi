@@ -82,8 +82,8 @@ export default ({ env }) => {
           pra eu conseguir ter acesso ao postgres tenho que setar las nas env DATABASE_POOL_MIN para 0 e DATABASE_POOL_MAX para 5
           por causa de limitações do plano postgresSQL FREE
         */
-        min: env.int('DATABASE_POOL_MIN', 2),
-        max: env.int('DATABASE_POOL_MAX', 10),
+        min: env.int('DATABASE_POOL_MIN', 0),
+        max: env.int('DATABASE_POOL_MAX', 2),
       },
     },
     sqlite: {
