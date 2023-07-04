@@ -1,6 +1,5 @@
 // path: ./config/env/production/database.ts
 
-
 import { parse } from 'pg-connection-string';
 parse(process.env.DATABASE_URL);
 
